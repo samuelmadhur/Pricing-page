@@ -1,0 +1,77 @@
+
+<html>
+
+<head>
+    <title>Pricing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>OTT Subscription Pricing</h1>
+    </header>
+
+    <section id="pricing-plans">
+ <div class="pricing-container">
+        <div class="pricing-card">
+        <div class="plan">
+            <h2>Basic</h2>
+            <p class="price">₹149/mo</p>
+            <ul>
+                <li>watch on 1 device</li>
+                <li>use only on mobile</li>
+                <li>ads on all content</li>
+            </ul>
+            <button>Select</button>
+        </div>
+       </div>
+      </div>
+       <div class="pricing-container">
+        <div class="pricing-card">
+        <div class="plan popular">
+            <h2>Plus</h2>
+            <p class="price">₹499/mo</p>
+            <ul>
+                <li>watch on 2 devices</li>
+                <li>tv,laptops&Mobiles</li>
+                <li>ads on all content</li>
+                <li>upto full HD</li>
+            </ul>
+            <button>Select</button>
+        </div>
+      </div>
+      </div>
+<div class="pricing-container">
+        <div class="pricing-card">
+        <div class="plan">
+            <h2>Premium</h2>
+            <p class="price">₹999 /mo</p>
+            <ul>
+                <li>watch on 4 devices</li>
+                <li>tv,laptops&Mobiles</li>
+                <li>add free</li>
+                <li>upto 4k 2160 uhd video</li>
+                <li>upto Dolby Atmos</li>
+            </ul>
+            <button>Select</button>
+        </div>
+          </div>
+        </div>
+     
+        
+    </section>
+
+    <script src="script.js"></script>
+<script>
+    const buttons = document.querySelectorAll('button');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            alert('Plan selected successfully');
+        });
+    });
+</script>
+
+</body>
+
+</html>
